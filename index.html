@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Band website</title>
+    <link rel="icon" href="./public/adokidoki.svg">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
@@ -13,14 +14,16 @@
         <div class="nav-content">
             <image src="./public/adokidoki.svg" style="width:150px"></image>
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="merch.html">Merch</a></li>
-                <li><a href="updates.html">Updates</a></li>
+                <li><a href="./index.html" class="active">Home</a></li>
+                <li><a href="./pages/merch.html">Merch</a></li>
+                <li><a href="./pages/updates.html">Updates</a></li>
+                <li><button id="toggleThemeButton"></button></li>
+
             </ul>
         </div>
     </nav>
 
-    <main class="home">
+    <main>
         <div class="hero">
             <img src="./public/adoki.png" alt="Ado doki doki" class="band-logo">
             <h1>ADOMINATION</h1>
@@ -32,7 +35,6 @@
                 <h2>About Us</h2>
                 <p>Ado is a popular Utaite from japan.</p>
             </div>
-
             <div class="news">
                 <h2>Latest News</h2>
                 <div class="news-item">
@@ -44,6 +46,8 @@
                     <p>Get ready for our biggest tour yet. Dates coming soon.</p>
                 </div>
             </div>
+            <div class=""></div>
+            <div></div>
         </section>
     </main>
 
@@ -57,5 +61,6 @@
             <p>&copy; 2024 Cloud Nine Inc. All rights reserved.</p>
         </div>
     </footer>
+    <script src="src/toggleTheme.ts"></script>
 </body>
 </html>
