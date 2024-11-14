@@ -1,126 +1,128 @@
 :root[data-theme="light"] {
-    --light-text-50: #eef1f6;
-    --light-text-100: #dee3ed;
-    --light-text-200: #bcc8dc;
-    --light-text-300: #9bacca;
-    --light-text-400: #7991b9;
-    --light-text-500: #5875a7;
-    --light-text-600: #465e86;
-    --light-text-700: #354664;
-    --light-text-800: #232f43;
-    --light-text-900: #121721;
-    --light-text-950: #090c11;
+    --text-50: #eff1f6;
+    --text-100: #dee2ed;
+    --text-200: #bec6da;
+    --text-300: #9da9c8;
+    --text-400: #7c8db6;
+    --text-500: #5c70a3;
+    --text-600: #495a83;
+    --text-700: #374362;
+    --text-800: #252d41;
+    --text-900: #121621;
+    --text-950: #090b10;
 
-    --light-background-50: #edf0f7;
-    --light-background-100: #dce1ef;
-    --light-background-200: #b8c3e0;
-    --light-background-300: #95a6d0;
-    --light-background-400: #7188c1;
-    --light-background-500: #4e6ab1;
-    --light-background-600: #3e558e;
-    --light-background-700: #2f406a;
-    --light-background-800: #1f2a47;
-    --light-background-900: #101523;
-    --light-background-950: #080b12;
+    --background-50: #eef0f6;
+    --background-100: #dde2ee;
+    --background-200: #bbc5dd;
+    --background-300: #99a8cc;
+    --background-400: #778abb;
+    --background-500: #556daa;
+    --background-600: #445788;
+    --background-700: #334266;
+    --background-800: #222c44;
+    --background-900: #111622;
+    --background-950: #090b11;
 
-    --light-primary-50: #e5eeff;
-    --light-primary-100: #ccddff;
-    --light-primary-200: #99bbff;
-    --light-primary-300: #6699ff;
-    --light-primary-400: #3377ff;
-    --light-primary-500: #0055ff;
-    --light-primary-600: #0044cc;
-    --light-primary-700: #003399;
-    --light-primary-800: #002266;
-    --light-primary-900: #001133;
-    --light-primary-950: #00081a;
+    --primary-50: #e9eefc;
+    --primary-100: #d2def9;
+    --primary-200: #a5bcf3;
+    --primary-300: #789bed;
+    --primary-400: #4b7ae7;
+    --primary-500: #1f59e0;
+    --primary-600: #1847b4;
+    --primary-700: #123587;
+    --primary-800: #0c235a;
+    --primary-900: #06122d;
+    --primary-950: #030916;
 
-    --light-secondary-50: #ebf0fa;
-    --light-secondary-100: #d6e0f5;
-    --light-secondary-200: #adc2eb;
-    --light-secondary-300: #85a3e0;
-    --light-secondary-400: #5c85d6;
-    --light-secondary-500: #3366cc;
-    --light-secondary-600: #2952a3;
-    --light-secondary-700: #1f3d7a;
-    --light-secondary-800: #142952;
-    --light-secondary-900: #0a1429;
-    --light-secondary-950: #050a14;
+    --secondary-50: #ebf0f9;
+    --secondary-100: #d8e0f3;
+    --secondary-200: #b1c1e7;
+    --secondary-300: #8aa2db;
+    --secondary-400: #6383cf;
+    --secondary-500: #3c64c3;
+    --secondary-600: #30509c;
+    --secondary-700: #243c75;
+    --secondary-800: #18284e;
+    --secondary-900: #0c1427;
+    --secondary-950: #060a14;
 
-    --light-accent-50: #eaeffb;
-    --light-accent-100: #d4e0f7;
-    --light-accent-200: #a9c0ef;
-    --light-accent-300: #7ea1e7;
-    --light-accent-400: #5482de;
-    --light-accent-500: #2963d6;
-    --light-accent-600: #214fab;
-    --light-accent-700: #183b81;
-    --light-accent-800: #102756;
-    --light-accent-900: #08142b;
-    --light-accent-950: #040a15;
+    --accent-50: #eaeffa;
+    --accent-100: #d6dff5;
+    --accent-200: #adc0eb;
+    --accent-300: #84a0e1;
+    --accent-400: #5b80d7;
+    --accent-500: #3260cd;
+    --accent-600: #284da4;
+    --accent-700: #1e3a7b;
+    --accent-800: #142752;
+    --accent-900: #0a1329;
+    --accent-950: #050a15;
+
 }
-
 :root[data-theme="dark"] {
-    --dark-text-50: #090c11;
-    --dark-text-100: #121721;
-    --dark-text-200: #232f43;
-    --dark-text-300: #354664;
-    --dark-text-400: #465e86;
-    --dark-text-500: #5875a7;
-    --dark-text-600: #7991b9;
-    --dark-text-700: #9bacca;
-    --dark-text-800: #bcc8dc;
-    --dark-text-900: #dee3ed;
-    --dark-text-950: #eef1f6;
+    --text-50: #090b10;
+    --text-100: #121621;
+    --text-200: #252d41;
+    --text-300: #374362;
+    --text-400: #495a83;
+    --text-500: #5c70a3;
+    --text-600: #7c8db6;
+    --text-700: #9da9c8;
+    --text-800: #bec6da;
+    --text-900: #dee2ed;
+    --text-950: #eff1f6;
 
-    --dark-background-50: #080b12;
-    --dark-background-100: #101523;
-    --dark-background-200: #1f2a47;
-    --dark-background-300: #2f406a;
-    --dark-background-400: #3e558e;
-    --dark-background-500: #4e6ab1;
-    --dark-background-600: #7188c1;
-    --dark-background-700: #95a6d0;
-    --dark-background-800: #b8c3e0;
-    --dark-background-900: #dce1ef;
-    --dark-background-950: #edf0f7;
+    --background-50: #090b11;
+    --background-100: #111622;
+    --background-200: #222c44;
+    --background-300: #334266;
+    --background-400: #445788;
+    --background-500: #556daa;
+    --background-600: #778abb;
+    --background-700: #99a8cc;
+    --background-800: #bbc5dd;
+    --background-900: #dde2ee;
+    --background-950: #eef0f6;
 
-    --dark-primary-50: #00081a;
-    --dark-primary-100: #001133;
-    --dark-primary-200: #002266;
-    --dark-primary-300: #003399;
-    --dark-primary-400: #0044cc;
-    --dark-primary-500: #0055ff;
-    --dark-primary-600: #3377ff;
-    --dark-primary-700: #6699ff;
-    --dark-primary-800: #99bbff;
-    --dark-primary-900: #ccddff;
-    --dark-primary-950: #e5eeff;
+    --primary-50: #030916;
+    --primary-100: #06122d;
+    --primary-200: #0c235a;
+    --primary-300: #123587;
+    --primary-400: #1847b4;
+    --primary-500: #1f59e0;
+    --primary-600: #4b7ae7;
+    --primary-700: #789bed;
+    --primary-800: #a5bcf3;
+    --primary-900: #d2def9;
+    --primary-950: #e9eefc;
 
-    --dark-secondary-50: #050a14;
-    --dark-secondary-100: #0a1429;
-    --dark-secondary-200: #142952;
-    --dark-secondary-300: #1f3d7a;
-    --dark-secondary-400: #2952a3;
-    --dark-secondary-500: #3366cc;
-    --dark-secondary-600: #5c85d6;
-    --dark-secondary-700: #85a3e0;
-    --dark-secondary-800: #adc2eb;
-    --dark-secondary-900: #d6e0f5;
-    --dark-secondary-950: #ebf0fa;
+    --secondary-50: #060a14;
+    --secondary-100: #0c1427;
+    --secondary-200: #18284e;
+    --secondary-300: #243c75;
+    --secondary-400: #30509c;
+    --secondary-500: #3c64c3;
+    --secondary-600: #6383cf;
+    --secondary-700: #8aa2db;
+    --secondary-800: #b1c1e7;
+    --secondary-900: #d8e0f3;
+    --secondary-950: #ebf0f9;
 
-    --dark-accent-50: #040a15;
-    --dark-accent-100: #08142b;
-    --dark-accent-200: #102756;
-    --dark-accent-300: #183b81;
-    --dark-accent-400: #214fab;
-    --dark-accent-500: #2963d6;
-    --dark-accent-600: #5482de;
-    --dark-accent-700: #7ea1e7;
-    --dark-accent-800: #a9c0ef;
-    --dark-accent-900: #d4e0f7;
-    --dark-accent-950: #eaeffb;
+    --accent-50: #050a15;
+    --accent-100: #0a1329;
+    --accent-200: #142752;
+    --accent-300: #1e3a7b;
+    --accent-400: #284da4;
+    --accent-500: #3260cd;
+    --accent-600: #5b80d7;
+    --accent-700: #84a0e1;
+    --accent-800: #adc0eb;
+    --accent-900: #d6dff5;
+    --accent-950: #eaeffa;
+
 }
+
 
 * {
     margin: 0;
@@ -130,8 +132,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: var(--dark-background-100);
-    color: var(--dark-text-900);
+    background-color: var(--background-50);
+    color: var(--text-900);
     line-height: 1.6;
 }
 
@@ -156,7 +158,7 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--dark-primary-100);
+    color: var(--primary-100);
 }
 
 nav ul {
@@ -166,14 +168,14 @@ nav ul {
 }
 
 nav a {
-    color: var(--dark-text-900);
+    color: var(--text-900);
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
 }
 
 nav a:hover, nav a.active {
-    color: var(--dark-primary-400);
+    color: var(--primary-400);
 }
 
 /* Main Content */
@@ -183,7 +185,7 @@ main {
 }
 
 h2 {
-    color: var(--dark-primary-900);
+    color: var(--primary-900);
     margin-bottom: 1rem;
 }
 
@@ -202,7 +204,7 @@ h2 {
 }
 
 .merch-item {
-    background-color: var(--dark-accent-200);
+    background-color: var(--accent-200);
     padding: 1rem;
     border-radius: 8px;
     text-align: center;
@@ -217,12 +219,12 @@ h2 {
 .price {
     display: block;
     font-size: 1.5rem;
-    color: var(--dark-primary-100);
+    color: var(--primary-100);
     margin: 1rem 0;
 }
 
 button {
-    background-color: var(--dark-primary-100);
+    background-color: var(--primary-100);
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -243,7 +245,7 @@ button:hover {
 }
 
 .update-post {
-    background-color: var(--dark-accent-200);
+    background-color: var(--accent-200);
     padding: 2rem;
     border-radius: 8px;
     margin-bottom: 2rem;
@@ -263,7 +265,7 @@ button:hover {
 }
 
 .post-info h3 {
-    color: var(--dark-primary-100);
+    color: var(--primary-100);
 }
 
 .date {
@@ -279,7 +281,7 @@ button:hover {
 
 /* Footer */
 footer {
-    background-color: var(--dark-secondary-300);
+    background-color: var(--secondary-300);
     padding: 2rem;
     text-align: center;
 }
@@ -289,14 +291,14 @@ footer {
 }
 
 .social-links a {
-    color: var(--dark-text-900);
+    color: var(--text-900);
     text-decoration: none;
     margin: 0 1rem;
     transition: color 0.3s;
 }
 
 .social-links a:hover {
-    color: var(--dark-primary-100);
+    color: var(--primary-100);
 }
 
 /* Responsive Design */
@@ -317,4 +319,7 @@ footer {
     .hero h1 {
         font-size: 3rem;
     }
+}
+#toggleThemeButton {
+    background-color: var(--accent-600);
 }

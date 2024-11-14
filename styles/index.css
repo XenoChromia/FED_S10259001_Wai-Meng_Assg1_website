@@ -13,7 +13,7 @@
 .h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
-    color: var(--dark-primary-900);
+    color: var(--primary-300);
 }
 
 /* Info Section */
@@ -27,7 +27,7 @@
 }
 
 .about, .news {
-    background-color: var(--dark-accent-200);
+    background-color: var(--accent-300);
     padding: 2rem;
     border-radius: 8px;
 }
