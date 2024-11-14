@@ -1,8 +1,5 @@
-// @ts-ignore
-import * as THREE from '../three/build/three.module.js';
-// @ts-ignore
-import {GLTFLoader} from '../three/examples/jsm/loaders/GLTFLoader.js';
-
+import * as THREE from 'https://cdn.skypack.dev/three@0.132.2';
+    import * as GLTFLoader from  'https://cdn.skypack.dev/three@0.132.2/examples/jsm/loaders/GLTFLoader.js';
 
 const modal = document.getElementById("modal");
 const openModalBtn = document.getElementById("openModalBtn");
@@ -59,7 +56,7 @@ const ambient = new THREE.AmbientLight(0xffffff);
 scene.add(ambient);
 
 // Model loading
-const loader = new GLTFLoader();
+const loader = new GLTFLoader.GLTFLoader();
 loader.load(
     '../public/albumClosed.glb',
     (gltf) => {
