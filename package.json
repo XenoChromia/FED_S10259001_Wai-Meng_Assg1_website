@@ -1,0 +1,17 @@
+{
+  "name": "fed_s10259001_wai-meng_assg1_website",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "dev" : "vite"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "vite": "^5.4.11"
+  }
+}
