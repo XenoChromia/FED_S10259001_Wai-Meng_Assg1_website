@@ -1,7 +1,7 @@
 // @ts-ignore
-import * as THREE from 'three';
+import * as THREE from '../three/build/three.module.js';
 // @ts-ignore
-import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {GLTFLoader} from '../three/examples/jsm/loaders/GLTFLoader.js';
 
 
 const modal = document.getElementById("modal");
