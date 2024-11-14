@@ -1,0 +1,33 @@
+.hero {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.band-logo {
+    max-width: 800px;
+    margin-bottom: 2rem;
+}
+
+.h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: var(--dark-primary-900);
+}
+
+/* Info Section */
+.info-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.about, .news {
+    background-color: var(--dark-accent-200);
+    padding: 2rem;
+    border-radius: 8px;
+}
