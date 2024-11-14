@@ -31,14 +31,14 @@ audioPlay.addEventListener("play", animateCd);
 // @ts-ignore
 audioPlay.addEventListener("pause", stopCdRotation);
 // Global variables
-let model: { rotation: { set: (arg0: number, arg1: number, arg2: number) => void; y: number; x: number; }; position: { set: (arg0: number, arg1: number, arg2: number) => void; }; traverse: (arg0: { (child: any): void; (child: any): void; }) => void; };
+let model;
 let isOpening = false;
 let animationInProgress = false;
 let isMouseDown = false;
 let previousMouseX = 0;
 let previousMouseY = 0;
 let cdRotating = false;
-let animationFrameId: number;
+let animationFrameId;
 
 // Scene setup
 const scene = new THREE.Scene();
@@ -62,7 +62,7 @@ scene.add(ambient);
 const loader = new GLTFLoader();
 loader.load(
     '../public/albumClosed.glb',
-    (gltf: { scene: { rotation: { set: (arg0: number, arg1: number, arg2: number) => void; y: number; x: number; }; position: { set: (arg0: number, arg1: number, arg2: number) => void; }; traverse: (arg0: { (child: any): void; (child: any): void; }) => void; }; }) => {
+    (gltf) => {
         model = gltf.scene;
 
         // Set model position and rotation
@@ -71,7 +71,7 @@ loader.load(
         scene.add(model);
     },
     undefined,
-    (error: any) => {
+    (error) => {
         console.error('An error occurred while loading the model', error);
     }
 );
@@ -155,13 +155,13 @@ export function stopCdRotation() {
 }
 
 // Mouse event handlers
-function onMouseDown(event: { clientX: number; clientY: number; }) {
+function onMouseDown(event) {
     isMouseDown = true;
     previousMouseX = event.clientX;
     previousMouseY = event.clientY;
 }
 
-function onMouseMove(event: { clientX: number; clientY: number; }) {
+function onMouseMove(event) {
     if (isMouseDown && model) {
         const deltaX = event.clientX - previousMouseX;
         const deltaY = event.clientY - previousMouseY;
