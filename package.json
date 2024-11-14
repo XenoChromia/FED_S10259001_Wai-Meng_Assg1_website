@@ -1,6 +1,6 @@
 {
   "name": "fed_s10259001_wai-meng_assg1_website",
-  "module": "src/toggleTheme.ts",
+  "module": "src/toggleTheme.js",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"

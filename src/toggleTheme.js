@@ -1,6 +1,3 @@
-
-
-// @ts-ignore
 document.getElementById('toggleThemeButton').addEventListener('click', function() {
     // Get the current theme from the <html> element
     const currentTheme = document.documentElement.getAttribute('data-theme');
