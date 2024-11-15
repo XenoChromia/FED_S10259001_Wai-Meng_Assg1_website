@@ -39,7 +39,7 @@ let animationFrameId;
 
 // Scene setup
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(7, window.innerWidth / window.innerHeight, 0.3, 1000);
+const camera = new THREE.PerspectiveCamera(9, window.innerWidth / window.innerHeight, 0.3, 1000);
 camera.position.setZ(30);
 
 // Renderer setup
@@ -64,7 +64,7 @@ loader.load(
 
         // Set model position and rotation
         model.rotation.set(0, Math.PI + 2/2, 0);
-        model.position.set(1.3, -1, -2);
+        model.position.set(0.8, -1, -2);
         scene.add(model);
     },
     undefined,
@@ -89,7 +89,7 @@ function isCursorOnModel() {
 }
 
 // Animation functions
-export function animateCover() {
+function animateCover() {
     const targetRotation = isOpening ? 0 :-Math.PI;
     const rotationSpeed = 0.03;
 
@@ -124,7 +124,7 @@ export function animateCover() {
     }
 }
 
-export function animateCd() {
+function animateCd() {
     const rotationSpeed = 0.01;
 
     function animate() {
@@ -144,7 +144,7 @@ export function animateCd() {
     }
 }
 
-export function stopCdRotation() {
+function stopCdRotation() {
     if (cdRotating) {
         cancelAnimationFrame(animationFrameId);
         cdRotating = false;

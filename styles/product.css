@@ -53,9 +53,57 @@ audio {
 }
 
 /* Media queries for responsiveness */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 761px) {
     .modal-content {
         width: 80%;
         height: 80%;
     }
+
+    .product-container {
+        flex-direction: column;
+    }
+}
+
+.product-page {
+    padding: 10em;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem
+}
+
+.product-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#product-img {
+    width: 50%;
+    height: auto;
+}
+
+.product-info {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price {
+    color: var(--text-900)
+}
+
+.add-to-cart {
+    width: 100%;
+}
+
+#product-description {
+    width: 50%;
 }
