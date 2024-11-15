@@ -163,6 +163,7 @@ nav {
 
 nav ul {
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 2rem;
 }
@@ -322,4 +323,6 @@ footer {
 }
 #toggleThemeButton {
     background-color: var(--accent-600);
+    width: 50px;
+    height: 20px;
 }

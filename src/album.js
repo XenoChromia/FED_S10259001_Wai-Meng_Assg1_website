@@ -1,5 +1,5 @@
 import * as THREE from 'https://cdn.skypack.dev/three@0.132.2';
-    import * as GLTFLoader from  'https://cdn.skypack.dev/three@0.132.2/examples/jsm/loaders/GLTFLoader.js';
+import * as GLTFLoader from  'https://cdn.skypack.dev/three@0.132.2/examples/jsm/loaders/GLTFLoader.js';
 
 const modal = document.getElementById("modal");
 const openModalBtn = document.getElementById("openModalBtn");
