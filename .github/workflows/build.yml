@@ -22,3 +22,4 @@ jobs:
         with:
           branch: gh-pages
           folder: .  # Assuming your content is already in the root
+          token: ${{ secrets.GH_TOKEN }}
