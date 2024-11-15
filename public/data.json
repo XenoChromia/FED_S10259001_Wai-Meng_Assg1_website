@@ -1,0 +1,150 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "\"Dried Flowers\" (ドライフラワー)",
+        "description": "Cover of Yuuri's song",
+        "price": 29.99,
+        "image": "../public/album.png",
+        "category": "music",
+        "3d_model": "../albumClosed.glb",
+        "details": {
+          "format": "CD, Digital Download, Streaming",
+          "features": [
+            "Ado's vocal rendition of the popular hit",
+            "Covers various classic hits with fresh vocals",
+            "High-quality production and unique interpretations"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "\"Rebellion\" (リベリオン)",
+        "description": "Powerful anthem of resistance",
+        "price": 29.99,
+        "image": "../public/album.png",
+        "category": "music",
+        "3d_model": "../albumClosed.glb",
+        "details": {
+          "format": "CD, Digital Download, Streaming",
+          "features": [
+            "Vivid storytelling and dynamic beats",
+            "One of Ado's most popular tracks"
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "name": "\"Kura Kura\" (クラクラ)",
+        "description": "Opening theme for Spy × Family season 2",
+        "price": 29.99,
+        "image": "../public/album.png",
+        "category": "music",
+        "3d_model": "../albumClosed.glb",
+        "details": {
+          "format": "CD, Digital Download, Streaming",
+          "features": [
+            "Catchy and upbeat opening song",
+            "Featured in anime's second season"
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "name": "\"All Night Radio\" (オールナイトレディオ)",
+        "description": "Smooth late-night anthem",
+        "price": 29.99,
+        "image": "../public/album.png",
+        "category": "music",
+        "3d_model": "../albumClosed.glb",
+        "details": {
+          "format": "Digital Single",
+          "features": [
+            "Smooth melodies mixed with Ado's signature style",
+            "Captures the essence of late-night reflection"
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "name": "\"Himawari\" (向日葵)",
+        "description": "A sunflower-themed single of optimism",
+        "price": 29.99,
+        "image": "../public/album.png",
+        "category": "music",
+        "3d_model": "../albumClosed.glb",
+        "details": {
+          "format": "Digital Single",
+          "features": [
+            "Optimistic lyrics with vibrant instrumentals",
+            "A summer vibe with uplifting energy"
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "name": "\"Show\" (唱)",
+        "description": "Energetic and bold performance",
+        "price": 29.99,
+        "image": "../public/album.png",
+        "category": "music",
+        "3d_model": "../albumClosed.glb",
+        "details": {
+          "format": "Digital Single",
+          "features": [
+            "Dynamic vocals mixed with heavy beats",
+            "Powerful performance and a crowd favorite"
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "name": "\"Kaze no Yukue\" (風のゆくえ)",
+        "description": "Song of the winds, gentle and mysterious",
+        "price": 29.99,
+        "image": "../public/album.png",
+        "category": "music",
+        "3d_model": "../albumClosed.glb",
+        "details": {
+          "format": "Digital Single",
+          "features": [
+            "Mysterious and emotional storytelling",
+            "Atmospheric, dream-like instrumental"
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "name": "\"Nukegara\"",
+        "description": "From the album Zanmu, a deep dive into emotional change",
+        "price": 29.99,
+        "image": "../public/album.png",
+        "category": "music",
+        "3d_model": "../albumClosed.glb",
+        "details": {
+          "format": "Album",
+          "features": [
+            "Part of Ado's latest full-length album",
+            "Explores themes of self-transformation"
+          ]
+        }
+      },
+      {
+        "id": 9,
+        "name": "\"Value\"",
+        "description": "A reflection on worth and self-realization",
+        "price": 29.99,
+        "image": "../public/album.png",
+        "category": "music",
+        "3d_model": "../albumClosed.glb",
+        "details": {
+          "format": "Digital Single",
+          "features": [
+            "Strong vocals and introspective lyrics",
+            "An anthem of self-worth"
+          ]
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band website</title>
+    <link rel="icon" href="../public/adokidoki.svg">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/product.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <image src="../public/adokidoki.svg" style="width:150px"></image>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./merch.html" class="active">Merch</a></li>
+                <li><a href="./updates.html">Updates</a></li>
+                <li><button id="toggleThemeButton"></button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="product-page">
+        <div class="product-container">
+            <div class="product-image">
+                <img src="" alt="" id="product-img">
+                <button class="preview-btn" id="openModalBtn">Preview</button>
+            </div>
+            <div class="product-info">
+                <h1 id="product-name"></h1>
+                <p class="price">$<span id="product-price"></span></p>
+                <div class="quantity-control">
+                    <button class="qty-btn" onclick="decrementQuantity()">-</button>
+                    <span id="qty-display" class="qty-display">1</span>
+                    <button class="qty-btn" onclick="incrementQuantity()">+</button>
+                </div>
+                <button class="add-to-cart" onclick="addToCartWithQuantity()">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-description">
+            <h2>Product Description</h2>
+            <p id="product-description"></p>
+            <div id="product-details"></div>
+        </div>
+    </main>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModalBtn" class="close">&times;</span>
+            <div style="align-items: center; width: 100%; height:100%; display: flex; flex-wrap: wrap; flex-direction: column; justify-content: space-between">
+                <canvas id="bg" style="justify-content: center; align-items: center"></canvas>
+                <audio controls loop id="audio">
+                    <source src="../public/Readymade.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.instagram.com/ado_staff_official/">Instagram</a>
+                <a href="https://www.youtube.com/channel/UCln9P4Qm3-EAY4aiEPmRwEA">YouTube</a>
+                <a href="https://open.spotify.com/artist/6mEQK9m2krja6X1cfsAjfl">Spotify</a>
+            </div>
+            <p>&copy; 2024 Cloud Nine Inc. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../src/toggleTheme.js"></script>
+    <script src="../src/merch.js"></script>
+    <script src="../src/productload.js"></script>
+    <script type="module" src="../src/album.js"></script>
+</body>
