@@ -16,10 +16,3 @@ jobs:
       - name: Set environment variables and write config.js
         run: |
           echo "window.env = { APIURL: '${{ secrets.APIURL }}', APIKEY: '${{ secrets.APIKEY }}' };" > config.js
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          branch: gh-pages
-          folder: .  # Assuming your content is already in the root
-          token: ${{ secrets.GH_TOKEN }}
