@@ -5,17 +5,16 @@ const apiURL = window.env.APIURL
 const apiKey = window.env.APIKEY
 
 const supa = sb.createClient(apiURL, apiKey)
-communityButton.addEventListener('click', uploadData())
+communityButton.addEventListener('click', uploadData)
 async function uploadData() {
-    const email = 'test@gmail.com'
-    const name = 'test'
+    const email = document.getElementById('email').value;
+    const name = document.getElementById('name').value;
 
     const { data, error } = await supa
         .from('communityMembers').insert([{
             Name: name,
             Email: email,
          }])
-
     if (error) {
         return error
     } else {

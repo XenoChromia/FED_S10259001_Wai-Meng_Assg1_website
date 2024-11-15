@@ -52,7 +52,7 @@ renderer.setSize(window.innerWidth / 1.5 , window.innerHeight / 1.5);
 renderer.render(scene, camera);
 
 // Lighting
-const ambient = new THREE.AmbientLight(0xffffff);
+const ambient = new THREE.AmbientLight(0xffffff,1.5);
 scene.add(ambient);
 
 // Model loading
