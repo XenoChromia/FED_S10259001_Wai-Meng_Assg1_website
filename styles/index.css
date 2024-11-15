@@ -1,10 +1,12 @@
 .hero {
     width: 100vw;
+    justify-content: center;
     text-align: center;
     padding: 4rem 25%;
 }
 
 .band-logo {
+    width: 100%;
     max-width: 800px;
     margin-bottom: 2rem;
 }
