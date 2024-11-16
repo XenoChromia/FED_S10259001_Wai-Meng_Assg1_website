@@ -1,32 +1,25 @@
 import * as THREE from 'https://cdn.skypack.dev/three@0.132.2';
 import * as GLTFLoader from  'https://cdn.skypack.dev/three@0.132.2/examples/jsm/loaders/GLTFLoader.js';
 
+const closeModalBtn = document.getElementById("closeModalBtn");
 const modal = document.getElementById("modal");
 const openModalBtn = document.getElementById("openModalBtn");
-const closeModalBtn = document.getElementById("closeModalBtn");
 const audioPlay = document.getElementById("audio");
 
-// @ts-ignore
+closeModalBtn.onclick = function() {
+    // animateCover()
+    // stopCdRotation()
+    // audioPlay.pause();
+    modal.style.display = "none";  // Hide modal
+}
 openModalBtn.onclick = function() {
-    // @ts-ignore
     modal.style.display = "flex";  // Show modal
     animateCover()
 }
 
-// @ts-ignore
-closeModalBtn.onclick = function() {
-    animateCover()
-    stopCdRotation()
-    // @ts-ignore
-    audioPlay.pause();
-    // @ts-ignore
-    modal.style.display = "none";  // Hide modal
-}
-
-// @ts-ignore
 audioPlay.addEventListener("play", animateCd);
-// @ts-ignore
 audioPlay.addEventListener("pause", stopCdRotation);
+
 // Global variables
 let model;
 let isOpening = false;

@@ -37,12 +37,8 @@ function getProductIdFromUrl() {
 function updateProductUI() {
     document.title = `Ado Shop - ${currentProduct.name}`;
     document.getElementById('product-description').textContent = currentProduct.description;
-    document.getElementById('product-name').textContent = currentProduct.name;
-    document.getElementById('product-price').textContent = currentProduct.price.toFixed(2);
-    document.getElementById('product-img').src = currentProduct.image;
-    document.getElementById('product-img').alt = currentProduct.name;
-    document.getElementById('modal-img').src = currentProduct.image;
-    document.getElementById('modal-img').alt = currentProduct.name;
+
+
     
     // Add specific product details
     const detailsContainer = document.getElementById('product-details');
@@ -54,6 +50,12 @@ function updateProductUI() {
             </ul>
         `;
     }
+    document.getElementById('product-name').textContent = currentProduct.name;
+        document.getElementById('product-price').textContent = currentProduct.price.toFixed(2);
+    document.getElementById('product-img').src = currentProduct.image;
+    document.getElementById('product-img').alt = currentProduct.name;
+    document.getElementById('modal-img').src = currentProduct.image;
+    document.getElementById('modal-img').alt = currentProduct.name;
 }
 
 function incrementQuantity() {
